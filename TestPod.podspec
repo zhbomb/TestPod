@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   #
 
     #s.license      = "MIT (example)"
-   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+   s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -96,9 +96,8 @@ Pod::Spec.new do |s|
     #s.source_files  = "Classes", "Classes/**/*.{h,m}"
     # s.exclude_files = "Classes/Exclude"
 
-    s.source_files  = "Sources/*.{h,m}"
-
-  # s.public_header_files = "Sources/*.h"
+    s.source_files  = 'Sources/*.{h,m}'
+#s.public_header_files = "TestPod/Sources/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
